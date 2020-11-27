@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienes Raices </title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+
+    <header class="site-header">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="index.html">
+                    <img src="img/baby_1_logo.png" alt="Logotipo de Bienes Raices">
+                </a>
+                <div class="mobile-menu ">
+                    <a href="#navegacion">
+                        <img src="img/barras.svg" alt="Icono menu">
+                    </a>
+                </div>
+                <nav id="navegacion" class="navegacion">
+                    <a href="productos.html">Productos</a>
+                    <a href="sucursales.html">Sucursales</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="nosotros.html">Nosotros</a>
+                </nav>
+            </div>
+        </div>
+        <!--Contenedor-->
+    </header>
+
+    <h2 class="centrar-texto">Contacto</h2>
+    <img src="img/contact us.jpg" alt="Imagen Contacto" class="centrar-items">
+
+    <main class="contenedor seccion contenido-centrado">
+        <h2 class="fw-300 centrar-texto">Llenar el formulario de Contacto</h2>
+
+        <form class="contacto" action="">
+            <fieldset>
+                <legend>Información Personal </legend>
+
+                <label for="Nombre">Nombre</label>
+                <input type="text" id="Nombre" placeholder="Tu Nombre">
+
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="tupapirico@gmail.com" required>
+                <input type="submit">
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" placeholder=" +54 8125050561" required>
+                <input type="submit">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje"></textarea>
+
+                <input type="submit">
+            </fieldset>
+        
+            <fieldset>
+
+                <legend>Contacto</legend>
+                <p>Como desea ser Contactado:</p>
+                <div class="forma-contacto">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="radio" name="contacto" value="telefono" id="telefono">
+
+                    <label for="correo">E-mail:</label>
+                    <input type="radio" name="contacto" value="correo" id="correo">
+                </div>
+                <p>Si eligió Teléfono, elija la fecha y la hora</p>
+                <label for="fecha">Fecha</label>
+                <input type="date" id="fecha">
+
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora" min="9:00" max="18:00">
+
+
+            </fieldset>
+            <input type="submit" value="Enviar" class="boton boton-amarillo">
+        </form>
+    </main>
+
+    <footer class="site-footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a href="productos.html">Productos</a>
+                <a href="sucursales.html">Sucursales</a>
+                <a href="blog.html">Blog</a>
+                <a href="nosotros.html">Nosotros</a>
+            </nav>
+            <p class="copyright">Todos los Derechos Reservados 2020 &copy; </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
